@@ -76,7 +76,7 @@ function factorial (a, b) {
 
         for (var i = b; i > 1; i--) {
             factorialBvalue *= i;
-            return factorialBvalue;
+            return factorialBRes;
         }
         factorialBRes.innerHTML = factorialBvalue;
     } else {
