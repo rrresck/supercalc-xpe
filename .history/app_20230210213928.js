@@ -66,7 +66,7 @@ const factorial = (a, b) => {
             factorialARes *= i;
             return factorialARes;
         }
-        factorialARes.innerHTML = factorialARes;
+        factorialARes.innerHTML = factorialAvalue;
     } else {
         factorialARes = 'Valor MUITO grande';
     };

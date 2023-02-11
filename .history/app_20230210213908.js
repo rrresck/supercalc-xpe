@@ -60,13 +60,13 @@ const squareRoot = (a, b) => {
 
 const factorial = (a, b) => {
     if (a < 19) {
-        let factorialARes = 1;
+        let factorialAvalue = 1;
 
         for (var i = a; i > 1; i--) {
-            factorialARes *= i;
+            factorialAvalue *= i;
             return factorialARes;
         }
-        factorialARes.innerHTML = factorialARes;
+        factorialARes.innerHTML = factorialAvalue;
     } else {
         factorialARes = 'Valor MUITO grande';
     };
