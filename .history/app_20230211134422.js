@@ -70,6 +70,7 @@ const factorial = (a, b) => {
     } else {
         factorialARes.innerHTML = 'Valor MUITO grande';
     };
+
     if (b < 19) {
         let factorialBvalue = 1;
     
@@ -91,7 +92,6 @@ const percentage = (a, b) => {
 const average = (a, b) => {
     averageRes.innerHTML = (a + b)/2;
 }
-
 
 let button = document.getElementById("calculateButton")
 
