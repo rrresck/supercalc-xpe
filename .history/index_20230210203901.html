@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Calculadora - Projeto 2 - XP Educação</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <header>
+        <h1>Super Calculadora</h1>
+        <div class="flex inputNumbers">
+            <label for="firstNumber">Primeiro número (A)</label>
+            <input type="number" name="firstNumber" id="firstNumber" value="3">
+            <label for="secondNumber">Segundo número (B)</label>
+            <input type="number" name="secondNumber" id="secondNumber" value="2">
+            <input type="button" id="calculateButton" value="Calcular" />
+        </div>
+    </header>
+    <main>
+        <div class="flex">
+            <div class="calculus">
+                <p id="sum">Soma</p>
+                <p class="result" id="sum"></p>
+            </div>
+            <div class="calculus">
+                <p id="minusA">Subtração A - B</p>
+                <p class="result" id="subtractARes"></p>
+            </div>
+            <div class="calculus">
+                <p id="minusB">Subtração B - A</p>
+                <p class="result" id="subtractBRes"></p>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="calculus">
+                <p id="multiplication">Multiplicação</p>
+                <p class="result" id="multiplicationRes"></p>
+            </div>
+            <div class="calculus">
+                <p id="divisionA">Divisão A / B</p>
+                <p class="result" id="divisionARes"></p>
+            </div>
+            <div class="calculus">
+                <p id="divisionB">Divisão B / A</p>
+                <p class="result" id="divisionBRes"></p>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="calculus">
+                <p id="powerA">Potência de A na base B</p>
+                <p class="result" id="powerA"></p>
+            </div>
+            <div class="calculus">
+                <p id="powerB">Potência de B na base A</p>
+                <p class="result" id="powerB"></p>
+            </div>
+            <div class="calculus">
+                <p id="squareALabel">Raiz quadrada de A</p>
+                <p class="result" id="squareA"></p>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="calculus">
+                <p id="squareB">Raiz quadrada de B</p>
+                <p class="result" id="squareB"></p>
+            </div>
+            <div class="calculus">
+                <p id="factorialA">Fatorial de A</p>
+                <p class="result" id="factorialA"></p>
+            </div>
+            <div class="calculus">
+                <p id="factorialBLabel">Fatorial de B</p>
+                <p class="result" id="factorialB"></p>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="calculus">
+                <p id="percentage">Porcentagem de A em relação a B</p>
+                <p class="result" id="percentageA"></p>
+            </div>
+            <div class="calculus">
+                <p id="percentage">Porcentagem de B em relação A</p>
+                <p class="result" id="percentageB"></p>
+            </div>
+            <div class="calculus">
+                <p id="averageLabel">Média</p>
+                <p class="result" id="average"></p>
+            </div>
+        </div>
+    </main>
+    
+    <script src="app.js"></script>
+</body>
+</html>
